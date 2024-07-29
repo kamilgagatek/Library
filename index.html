@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteka od środka</title>
+    <link rel="icon" href="./book.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="c1">
+            <p>
+                Wycinek ekranu przedstawia relacje jakie zastosowałem między 
+                tabelami. Służy to ułatwieniu pracy z bazą danych oraz szybszemu
+                modyfikowaniu danych.
+            </p>
+        </div>
+        <div class="c2">
+            <img src="./img1.jpg" alt="Relacje">
+        </div>
+    </div>
+    <div id="container">
+        <div class="c1">
+            <p>
+                Tabele w bazie danych oraz relacje w praktyce. 
+                W tabeli z pożyczonymi książkami, prościej i szybciej zapisywać dane za pomocą
+                unikalnych identyfikatorów, oraz potem odczytu konkretnych, przefiltrowanych danych 
+                za pomocą zapytania w którym jako parametr podajemy dany identyfikator.
+            </p>
+        </div>
+        <div class="c2">
+            <img src="./listatabel.jpg" alt="Tabele">
+        </div>
+    </div>
+    <div id="container">
+        <div class="c1">
+            <p>
+                Za pomocą zaznaczonego zapytania przefiltrowałem 
+                wg. daty dodania 3 najnowsze książki. Ścieżki z wyniku wstawiłem jako
+                parametr do znaczników img (źródło zdjęć).
+            </p>
+        </div>
+        <div class="c2">
+            <img src="./najnowsze.jpg" alt="Najnowsze książki">
+        </div>
+    </div>
+    <div id="container">
+        <div class="c1">
+            <p>
+                Tak użytkownik widzi nowości.
+            </p>
+        </div>
+        <div class="c2">
+            <img src="./noweksiazki.jpg" alt="Widok nowości z poziomu użytkownika">
+        </div>
+    </div>
+    <div id="container">
+        <div class="c1">
+            <p>
+                Za pomocą zaznaczonego zapytania jestem w stanie określić liczbę czytelników
+                za pomocą zsumowania występowania unikalnych identyfikatorów w tabeli z czytelnikami.
+            </p>
+        </div>
+        <div class="c2">
+            <img src="./liczba.jpg" alt="Liczba czytelników">
+        </div>
+    </div>
+    <div id="container">
+        <div class="c1">
+            <p>
+                Wyświetlanie liczby czytelników widziane z poziomu użytkownika
+            </p>
+        </div>
+        <div class="c2">
+            <img src="./liczbaczytelnikow.jpg" alt="Liczba czytelników">
+        </div>
+    </div>
+    <div id="container">
+        <div class="c1">
+            <p>
+                Za pomocą pierwszego zapytania zliczam, który czytelnik wypożyczył najwięcej książek. 
+                Następnie po przypisaniu identyfikatora do zmiennej szukam jego imienia i nazwiska.
+            </p>
+        </div>
+        <div class="c2">
+            <img src="./najlepszy.jpg" alt="Najlepszy czytelnik">
+        </div>
+    </div>
+    <div id="container">
+        <div class="c1">
+            <p>
+                Wyświetlanie najbardziej zaangażowanego czytelnika widziane z poziomu użytkownika.
+            </p>
+        </div>
+        <div class="c2">
+            <img src="./najlepszyczytelnik.jpg" alt="Najlepszy czytelnik">
+        </div>
+    </div>
+    <div id="container">
+        <div class="c1">
+            <p>
+                Przygotowanie części HTML, która pozwala użytkownikowi na dostosowaniu wyników 
+                zapytania do jego potrzeb.
+            </p>
+        </div>
+        <div class="c2">
+            <img src="./sortowanie.jpg" alt="Sortowanie książek">
+        </div>
+    </div>
+    <div id="container">
+        <div class="c1">
+            <p>
+                Pobranie danych z formularza oraz dostosowanie zapytania poprzed wstawienie do niego
+                pobranych wartości. Wygenerowanie nagłówków tabeli.
+            </p>
+        </div>
+        <div class="c2">
+            <img src="./pobranie.jpg" alt="Pobranie danych">
+        </div>
+    </div>
+    <div id="container">
+        <div class="c1">
+            <p>
+                Wypisanie danych, które odpowiadają wygenerowanemu zapytaniu do bazy danych.
+                W razie nie zaznaczenia żadnej z opcji, witryna domaga się zaznaczenia którejkolwiek.
+            </p>
+        </div>
+        <div class="c2">
+            <img src="./wypisanie.jpg" alt="Wypisanie danych">
+        </div>
+    </div>
+    <div id="container">
+        <div class="c1">
+            <p>
+                Elementy osobnej podstrony, w której użytkownik wybiera jak ma filtrowana być lista książek (wg
+                której kolumny oraz w jaki sposób - rosnąco/malejąco).
+            </p>
+        </div>
+        <div class="c2">
+            <img src="./lista.jpg" alt="Lista książek">
+        </div>
+    </div>
+    <div id="container">
+        <div class="c1">
+            <p>
+                Po wybraniu opcji oraz wciśnięciu przycisku generuje się tabela z danymi dotyczącymi książkami
+                w bibliotece.
+            </p>
+        </div>
+        <div class="c2">
+            <img src="./posortowane.jpg" alt="Lista książek">
+        </div>
+    </div>
+</body>
+</html>
